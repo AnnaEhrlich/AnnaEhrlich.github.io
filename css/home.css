@@ -273,7 +273,7 @@ margin-bottom: 5em;
   background-image: url(../img/backflip-dive.jpg);
   background-position: center bottom;
   background-size: cover;
-  height: 34em;
+  height: 38em;
   margin-bottom: 4em;
 }
 
@@ -283,7 +283,6 @@ margin-bottom: 5em;
 
 }
 .options {
-
 height: inherit;
   display: flex;
   justify-content: space-evenly;
@@ -293,10 +292,10 @@ height: inherit;
 }
 .opt {
 position: relative;
- width: 16rem;
+ width: 17rem;
   background-color: rgba(0,0,0,0.6);
   text-align: center;
-margin: 3em 30px;
+margin: 4.4em 30px;
 display: flex;
 flex-direction: column;
 justify-content: center;
