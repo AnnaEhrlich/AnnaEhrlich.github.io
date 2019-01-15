@@ -93,7 +93,7 @@ nav a:hover::before {
     width: 30em;
   }
 }
-/*SECTION*/
+/*SECTION-ABOUT*/
 .title-wrap {
   display: block;
   padding: 4em 0;
@@ -268,6 +268,86 @@ margin-bottom: 5em;
 .title-learn h1, .title-learn p {text-align: center;}
 }
 
+/*SECTION-MORE*/
+.wrap-more {
+  background-image: url(../img/backflip-dive.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  height: 34em;
+  margin-bottom: 4em;
+}
+
+.gradient-white {
+  background-image: linear-gradient(rgba(255,255,255), rgba(255,255,255, 0.0));
+  height: inherit;
+
+}
+.options {
+
+height: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+ flex-wrap: wrap;
+
+}
+.opt {
+position: relative;
+ width: 16rem;
+  background-color: rgba(0,0,0,0.6);
+  text-align: center;
+margin: 3em 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: space-between;
+box-shadow: 0 4px 4px 0 rgba(0,0,0, 0.2);
+
+}
+.opt:hover {
+background-color: rgba(0,0,0,0.7);
+transition: 300ms;
+}
+
+.opt p {
+margin-top: 0;
+    font-family: 'Hind', sans-serif;
+  color: white;
+  font-size: 2.5em;
+font-weight: 300;
+padding: 2px 15%;
+}
+.btn-more {
+width: auto;
+position: absolute;
+bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+left: 10%;
+right: 10%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+background: rgba(84,75,109);
+border-radius: 16px;
+}
+.btn-more:hover {
+ transform: translate(0, -5px);
+transition: 200ms;
+}
+
+.btn-more a {
+font-size: 2em;
+}
+
+@media (max-width: 964px) {
+.wrap-more {height: auto;}
+.opt {width: 60%;}
+.opt p {margin-bottom: 1.5em;
+padding: 40px 10px;}
+.btn-more {left: 30%;
+right: 30%; }
+.wrap-more {background-position: 62% bottom;}
+}
+
 /**FOOTER*/
 footer {
   background-color: #312D3C;
@@ -376,24 +456,4 @@ font-size: 13px;
 }
 .credit a:hover {
   color: #fff;
-}
-
-.wrap-more {
-  background-image: url(../img/backflip-dive.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 48em;
-  margin-top: 10em;
-  margin-bottom: 4em;
-  position: relative;
-}
-
-.gradient-white {
-  background-image: linear-gradient(rgba(255,255,255), rgba(255,255,255, 0.0));
-  height: inherit;
-
-}
-
-.title-more {
-
 }
