@@ -278,7 +278,7 @@ margin-bottom: 5em;
 }
 
 .gradient-white {
-  background-image: linear-gradient(rgba(255,255,255), rgba(255,255,255, 0.0));
+  background-image: -webkit-linear-gradient(rgba(255,255,255), rgba(255,255,255, 0.0));
   height: inherit;
 
 }
